@@ -37,12 +37,6 @@ ol, ul {
 	list-style: none;
 }
 
-
-
-#contact{
-	padding-top: 50px;
-}
-
 blockquote, q {
 	quotes: none;
 }
@@ -257,69 +251,6 @@ input, select, textarea {
 		padding: 0.25rem 0.65rem;
 	}
 
-	.post .about_me_image{
-		width: 20%;
-	}
-
-	.rounded{
-		color: white; 
-		padding: 3px 3px 3px 6px;
-		background-color: maroon;
-		border-radius: 5px;
-		
-	}
-	.rounded1{
-		color: white; 
-		padding: 3px 4px 3px 6px; 
-		background-color: plum;
-		border-radius: 5px;
-		
-	}
-	.rounded2{
-		color: white; 
-		padding: 3px 4px 3px 6px;  
-		background-color: darkcyan;
-		border-radius: 5px;
-		
-	}
-	.rounded3{
-		color: white; 
-		padding: 3px 4px 3px 6px;  
-		background-color: peru;
-		border-radius: 5px;
-		
-	}
-	.rounded4{
-		color: white; 
-		padding: 3px 6px 3px 6px;  
-		background-color: orangered;
-		border-radius: 5px;
-
-	}
-
-	.rounded5{
-		color: white; 
-		padding: 3px 6px 3px 6px;  
-		background-color: green;
-		border-radius: 5px;
-
-	}
-
-	.rounded6{
-		color: white; 
-		padding: 3px 6px 3px 6px;  
-		background-color: blueviolet;
-		border-radius: 5px;
-	}
-
-	.rounded7{
-		color: white; 
-		padding: 3px 6px 3px 6px;  
-		background-color:darkseagreen;
-		border-radius: 5px;
-	}
-
-
 	pre {
 		-webkit-overflow-scrolling: touch;
 		font-family: "Courier New", monospace;
@@ -461,7 +392,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 60%;
+			width: 33.33333%;
 		}
 
 		.row > .off-4 {
@@ -2703,19 +2634,8 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			margin-bottom: 50px;
-			width: 50%;
-			
-		}
-
-		.resume_image{
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			margin-bottom: 50px;
-			width: 50%;
+			margin: 4rem 0;
+			width: 100%;
 		}
 
 			.image.main:first-child {
@@ -3314,16 +3234,14 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/bgbg.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
-			background-size: cover;								auto,														100% auto;
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bgbg.jpg");
+			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
-			background-position-y: -300px;
-			filter: blur(4px);
-  			-webkit-filter: blur(4px);
-
 			background-repeat: repeat,								no-repeat,													no-repeat;
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
+			filter: blur(4px);
+  			-webkit-filter: blur(4px);
 		}
 
 			#wrapper > .bg.fixed {
@@ -3871,8 +3789,8 @@ input, select, textarea {
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
-				font-size: 3rem;
-				line-height: 1.5;
+				font-size: 4rem;
+				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
 
